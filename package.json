@@ -2,7 +2,7 @@
     "name": "language-ats-temptory",
     "displayName": "ATS-Temptory",
     "description": "ATS-Temptory language support",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "sparverius",
     "engines": {
         "vscode": "^1.19.0"
