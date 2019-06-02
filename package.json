@@ -1,22 +1,21 @@
 {
-    "name": "language-ats",
-    "displayName": "ATS",
-    "description": "ATS language support",
-    "version": "0.0.2",
-    "publisher": "ldeleris",
+    "name": "language-ats-temptory",
+    "displayName": "ATS-Temptory",
+    "description": "ATS-Temptory language support",
+    "version": "0.0.1",
+    "publisher": "sparverius",
     "engines": {
         "vscode": "^1.19.0"
     },
     "license": "SEE LICENSE IN LICENSE",
-    "homepage": "https://github.com/ldeleris/ats-vscode/blob/master/README.md",
+    "homepage": "https://github.com/sparverius/ats-vscode",
     "repository": {
         "type": "git",
-        "url": "https://github.com/ldeleris/ats-vscode.git"
+        "url": "https://github.com/sparverius/ats-vscode.git"
     },
     "icon": "images/ATS-Logo.png",
     "categories": [
-        "Languages",
-        "Snippets"
+        "Languages"
     ],
     "contributes": {
         "languages": [
@@ -24,7 +23,8 @@
                 "id": "ats",
                 "aliases": [
                     "ATS",
-                    "ats"
+                    "ats",
+		    "temptory"
                 ],
                 "extensions": [
                     ".dats",
@@ -39,12 +39,6 @@
                 "language": "ats",
                 "scopeName": "source.ats",
                 "path": "./syntaxes/ats.tmLanguage"
-            }
-        ],
-        "snippets": [
-            {
-                "language": "ats",
-                "path": "./snippets/snippets.json"
             }
         ]
     }
