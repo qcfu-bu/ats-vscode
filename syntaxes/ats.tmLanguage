@@ -182,7 +182,7 @@
 		<key>definition_function</key>
 		<dict>
 			<key>begin</key>
-			<string>\b(?:castfn|fn|fun|implement|implmnt|infixl|infixr|infix|overload|postfix|praxi|prfn|prfun|primplement|primplmnt|var)\b</string>
+			<string>\b(?:castfn|fn|fun|assume|implement|implmnt|infixl|infixr|infix|overload|postfix|praxi|prfn|prfun|primplement|primplmnt|var)\b</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>0</key>
@@ -269,7 +269,7 @@
 		<key>keywords</key>
 		<dict>
 			<key>match</key>
-			<string>(\#|\$)(\w+)|\b(castfn|absimpl|absreimpl|and|andalso|as|begin|break|case(\+|-)?|class|continue|#dynload|else|end|exception|extern|fix|fn|for|fun|if|implement|implmnt|implfun|implval|implprf|impltmp|implate|#infixl|#infixr|#infix|in|lam|let|llam|local|#macdef|#macrodef|method|modprop|modtype|module|nonfix|object|of|op|or|orelse|#symload|par|#postfix|praxi|#prefix|prfn|prfun|prval|rec|scase|sif|#stacst|stacst|staif|#staload|sexpdef|sta|struct|symelim|#symintr|#symelim|symintr|then|try|val(\+|-)?|var|when|where|while|withprop|withtype|withviewtype|withview|with)\b</string>
+			<string>(\#|\$)(\w+)|\b(castfn|absimpl|absreimpl|and|andalso|as|begin|break|case(\+|-)?|class|continue|#dynload|else|end|exception|extern|fix|fn|for|fun|if|assume|implement|implmnt|implfun|implval|implprf|impltmp|implate|#infixl|#infixr|#infix|in|lam|let|llam|local|#macdef|#macrodef|method|modprop|modtype|module|nonfix|object|of|op|or|orelse|#symload|par|#postfix|praxi|#prefix|prfn|prfun|prval|rec|scase|sif|#stacst|stacst|staif|#staload|sexpdef|sta|struct|symelim|#symintr|#symelim|symintr|then|try|val(\+|-)?|var|when|where|while|withprop|withtype|withviewtype|withview|with)\b</string>
 			<key>name</key>
 			<string>keyword</string>
 		</dict>
